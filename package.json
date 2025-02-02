@@ -14,10 +14,24 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-ollama-assistant.helloWorld",
-        "title": "Hello World"
+        "command": "ollama-assistant.startChat",
+        "title": "Start Ollama Chat"
       }
-    ]
+    ],
+    "viewsContainers": {
+      "activitybar": [{
+        "id": "ollama-sidebar",
+        "title": "Ollama Assistant",
+        "icon": "media/ollama.svg"
+      }]
+    },
+    "views": {
+      "ollama-sidebar": [{
+        "id": "ollama-chat",
+        "name": "Chat",
+        "type": "webview"
+      }]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
@@ -37,5 +51,8 @@
     "typescript": "^5.7.2",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
   }
 }

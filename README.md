@@ -1,71 +1,79 @@
-# vscode-ollama-assistant README
+# VS Code Local AI Assistant README
 
-This is the README for your extension "vscode-ollama-assistant". After writing up a brief description, we recommend including the following sections.
+[comment]: <> (This is the README for your extension "vscode-ollama-assistant". After writing up a brief description, we recommend including the following sections.)
+
+## Introduction
+
+This is a Visual Studio Code Extention which lets you to access a LLM running locally on your machine on **Ollama platform** as a side panel and also assist you with code open on the current tab. 
+
+> The model specified in the code is "deepseek-r1:1.5b" 
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This is under development and testing, and I am still learning (of course using LLMs 😊) ...
 
-For example if there is an image subfolder under your extension project workspace:
+[comment]: <> (Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.)
+
+[comment]: <> (For example if there is an image subfolder under your extension project workspace:)
 
 \!\[feature X\]\(images/feature-x.png\)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+[comment]: <> (> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.)
 
-## Requirements
+[comment]: <> (## Requirements)
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+[comment]: <> (If you have any requirements or dependencies, add a section describing those and how to install and configure them.)
 
-## Extension Settings
+[comment]: <> (## Extension Settings)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+[comment]: <> (Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.)
 
-For example:
+[comment]: <> (For example:)
 
-This extension contributes the following settings:
+[comment]: <> (This extension contributes the following settings:)
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+[comment]: <> (* `myExtension.enable`: Enable/disable this extension.)
+[comment]: <> (* `myExtension.thing`: Set to `blah` to do something.)
 
-## Known Issues
+[comment]: <> (## Known Issues)
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+[comment]: <> (Calling out known issues can help limit users opening duplicate issues against your extension.)
 
-## Release Notes
+[comment]: <> (## Release Notes)
 
-Users appreciate release notes as you update your extension.
+[comment]: <> (Users appreciate release notes as you update your extension.)
 
-### 1.0.0
+[comment]: <> (### 1.0.0)
 
-Initial release of ...
+[comment]: <> (Initial release of ...)
 
-### 1.0.1
+[comment]: <> (### 1.0.1)
 
-Fixed issue #.
+[comment]: <> (Fixed issue #.)
 
-### 1.1.0
+[comment]: <> (### 1.1.0)
 
-Added features X, Y, and Z.
+[comment]: <> (Added features X, Y, and Z.)
 
----
+[comment]: <> (---)
 
-## Following extension guidelines
+[comment]: <> (## Following extension guidelines)
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+[comment]: <> (Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.)
 
 * [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
 
-## Working with Markdown
+[comment]: <> (## Working with Markdown)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+[comment]: <> (You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:)
 
 * Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
 * Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
 * Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
+[comment]: <> (## For more information)
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+[comment]: <> (**Enjoy!**)
